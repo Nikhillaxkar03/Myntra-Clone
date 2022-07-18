@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+.dropMenu{
+    color: black;
+    width: 35vw;
+    height: 100vh;
+    position: absolute;
+    right: 0px;
+    z-index: 5;
+    background-color: white;
+    /* display: none; */
+    animation-name: glide;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+.mitems{
+    width: 140px;
+    height: auto;
+   
+}
+@keyframes glide {
+    from{
+        width: 0vw;
+    }
+    to{
+        width: 35vw;
+    }
+}
+.sideMenuClose{
+    animation: closer;
+}
+@keyframes closer{
+    from{
+        width: 35vw;
+    }
+    to{
+        width: 0vw;
+    }
+}
+.dropMenu ul li{
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    padding: 6px 0px 6px 12px;
+}
+.dropMenu .srch_items{
+    padding: 40px 7px 50px 7px;
+}
+.darker{
+    background-color: rgba(6, 6, 6, 0.468);
+}
+@media screen and (min-width: 1000px) {
+    .dropMenu{
+        display: none;
+    }
+}

@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+/* Header */
+header{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 3.5vh;
+    position: sticky;
+    background-color: white;
+    top: 0;
+    z-index: 1;
+}
+header nav{
+    display: flex;
+}
+header nav img{
+    padding: 1.6vw 5vh 1.6vw 8vh;
+}
+header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 38vw;
+}
+sup{
+    color: rgb(246, 48, 81);
+    font-size: .8rem;
+    font-weight: 400;
+}
+.std{
+    margin-bottom: 4px;
+}
+header nav ul li{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(56, 56, 56);
+    font-size: 0.9rem;
+    font-weight: 600;
+    list-style: none;   
+}
+.nav-items{
+    display: flex;
+    justify-content:flex-end;
+}
+.nav-items .items{
+    margin-left: 8vw;
+}
+.srch-bar{
+    font-family: sans-serif;
+    width: 20vw;
+    outline: none;
+    border: none;
+    font-weight: lighter;
+    font-size: 0.9rem;
+}
+.ico{
+    margin: 0;
+    padding: 0;
+}
+.srch_items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 22vw;
+}
+/* -*-*-*-*-*-*-*-*-*-*-*-Header-**-*-*-*-*-*-*-*- */
+.slider img{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+.h-1{
+    font-family: 'Baloo Paaji 2', cursive;
+    color: rgb(75, 75, 75);
+    padding: 11vh 1.9vw 6.5vh 1.9vw;
+    letter-spacing: 3.5px;
+}
+.s-menu{
+    font-family: sans-serif;
+    color: white;
+    background-color: rgb(76, 75, 75);
+    font-weight: bolder;
+    display: inline-block;
+    padding: 5px;
+    font-size: 1.8rem;
+    transform: rotate(-90deg);
+    position: fixed;
+    z-index: 2;
+    right: -103px;
+    top: 417px;
+    
+}
+header .menu{
+    display: none;
+}
+   
+.card-1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.c-img{
+    width: 252px;
+    height: auto;
+}
+.h-2{
+    font-family: 'Baloo Paaji 2', cursive;
+    color: rgb(75, 75, 75);
+    padding: 7vh 1.9vw;
+    letter-spacing: 3.5px;
+}
+.card-2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.c2-img{
+    width: 188.9px;
+    height: auto;
+    padding: 0px;
+}
+table{
+    font-family: sans-serif;
+    font-size: 0.9rem;
+}
+.section-1{
+    display: inline-flex;
+    flex-direction: column;
+     font-family: 'Montserrat', sans-serif;
+    color: rgb(94, 93, 93);
+    font-size: 0.8rem;
+}
+.section-1 p{
+    font-weight: 20;
+    margin: 4px;
+}
+.section-1 .heading-1{
+    color: black;
+    font-weight: 600;
+    margin-bottom: 21px;
+}
+.section-2{
+    display: inline-flex;
+    flex-direction: column;
+     font-family: 'Montserrat', sans-serif;
+    color:rgb(94, 93, 93);
+    font-size: 0.8rem;
+}
+.section-2 p{
+    font-weight: 20;
+    margin: 4px;
+}
+.section-2 .heading-2{
+    color: black;
+    font-weight: 600;
+    margin-bottom: 21px;
+}
+.section-3{
+    display: inline-flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    color:rgb(94, 93, 93);
+    font-size: 0.8rem;
+}
+.section-3 .heading-3{
+    color: black;
+    font-weight: 600;
+    margin-bottom: 21px;
+}
+.app-stores{
+    margin: 2px 0px 21px 0px;
+}
+.section-3 .heading-4{
+    color: black;
+    font-weight: 600;
+    margin-bottom: 21px;
+}
+.section-3 img{
+    padding: 4px;
+}
+.section-4{
+    display: inline-flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+}
+footer{
+    width: 100%;
+}
+.container-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 4% auto;
+}
+.section-4 span{
+    display: block;
+}
+.content-1{
+    display: flex;
+    margin-bottom: 10px;
+}
+.bold{
+    font-weight: 500;
+}
+.section-4 pre b{
+    font-family:  'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: black;
+}
+.section-4 pre{
+    font-family: 'Montserrat', sans-serif;
+    color:rgb(94, 93, 93);
+    font-size: 0.8rem;
+    padding: 6px;
+}
+.content-2{
+    display: flex;
+}
+
+
+/* /* /* /* -*--*-**-*-*-*-*-*-*FOOTER*-*-*-*-*-*-*-*- */
+
+@media screen and (max-width: 900px) {
+   header nav ul{
+    display: none;
+   } 
+   .nav-items{
+    display: none;
+   }
+   header{
+    justify-content: space-between;
+    align-items: center;
+   }
+   
+   header .menu{
+    margin-right: 5px;
+    display: inline-block;
+   }
+}
+@media screen and (max-width: 1024px){
+    header nav ul{
+        display: none;
+    }
+    .nav-items{
+        display: none;
+    }
+    header{
+        justify-content: space-between;
+        align-items: center;
+       }
+       
+      header .menu{
+        margin-right: 5px;
+        padding: 3px;
+        display: inline-block;
+       }
+}
